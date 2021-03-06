@@ -1,0 +1,728 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Displaying the sidebar | GitBook</title>
+    <meta name="description" content="">
+    
+    
+    
+  
+      
+        
+          <link rel="stylesheet" href="../../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+        
+      
+        
+          <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+        
+      
+    
+
+  
+
+  
+    
+      <link rel="stylesheet" href="../../website-1522296907282.css">
+    
+  
+    
+  
+    
+  
+    
+  
+
+    
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="../../assets/images/favicon.ico" type="image/x-icon">
+
+  
+    <link rel="next" href="../05-customizing-the-front-end/">
+  
+  
+    <link rel="prev" href="responsive-images-and-post-thumbnails.html">
+  
+
+  </head>
+  <body>
+    
+<div class="wrap">
+  <main class="book">
+    <aside class="book-summary">
+      
+        
+        
+          <nav role="navigation">
+            
+
+
+<ol class="summary">
+  
+  
+
+  
+
+  
+    
+    
+  
+    <li class="chapter " data-level="1" data-path="../../">
+      
+        
+          <a href="../../index.html">
+        
+      
+      
+      Introduction
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="2" data-path="../01-what-is-sage/">
+      
+        
+          <a href="../01-what-is-sage/index.html">
+        
+      
+      
+      What is Sage?
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="3" data-path="../02-why-sage/">
+      
+        
+          <a href="../02-why-sage/index.html">
+        
+      
+      
+      Why Sage?
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="4" data-path="../03-starting-a-project/">
+      
+        
+          <a href="../03-starting-a-project/index.html">
+        
+      
+      
+      Starting a project
+      
+        </a>
+      
+
+      
+      <ol class="articles">
+        
+  
+    <li class="chapter " data-level="4.1" data-path="../03-starting-a-project/installing-the-sage-starter-theme.html">
+      
+        
+          <a href="../03-starting-a-project/installing-the-sage-starter-theme.html">
+        
+      
+      
+      Installing the Sage starter theme
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="4.2" data-path="../03-starting-a-project/theme-setup.html">
+      
+        
+          <a href="../03-starting-a-project/theme-setup.html">
+        
+      
+      
+      Theme setup
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="4.3" data-path="../03-starting-a-project/planning-out-the-theme.html">
+      
+        
+          <a href="../03-starting-a-project/planning-out-the-theme.html">
+        
+      
+      
+      Planning out the theme
+      
+        </a>
+      
+
+      
+    </li>
+  
+
+      </ol>
+      
+    </li>
+  
+    <li class="chapter " data-level="5" data-path="./">
+      
+        
+          <a href="./index.html">
+        
+      
+      
+      Customizing templates
+      
+        </a>
+      
+
+      
+      <ol class="articles">
+        
+  
+    <li class="chapter " data-level="5.1" data-path="blade-templates.html">
+      
+        
+          <a href="blade-templates.html">
+        
+      
+      
+      Blade templates
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="5.2" data-path="template-files.html">
+      
+        
+          <a href="template-files.html">
+        
+      
+      
+      Template files
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="5.3" data-path="building-template-partials.html">
+      
+        
+          <a href="building-template-partials.html">
+        
+      
+      
+      Building template partials
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="5.4" data-path="responsive-images-and-post-thumbnails.html">
+      
+        
+          <a href="responsive-images-and-post-thumbnails.html">
+        
+      
+      
+      Responsive images & post thumbnails
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter active" data-level="5.5" data-path="sidebar.html">
+      
+        
+          <a href="sidebar.html">
+        
+      
+      
+      Displaying the sidebar
+      
+        </a>
+      
+
+      
+    </li>
+  
+
+      </ol>
+      
+    </li>
+  
+    <li class="chapter " data-level="6" data-path="../05-customizing-the-front-end/">
+      
+        
+          <a href="../05-customizing-the-front-end/index.html">
+        
+      
+      
+      Customizing the front-end
+      
+        </a>
+      
+
+      
+      <ol class="articles">
+        
+  
+    <li class="chapter " data-level="6.1" data-path="../05-customizing-the-front-end/css-setup-and-organization.html">
+      
+        
+          <a href="../05-customizing-the-front-end/css-setup-and-organization.html">
+        
+      
+      
+      CSS setup and organization
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="6.2" data-path="../05-customizing-the-front-end/default-css-and-js.html">
+      
+        
+          <a href="../05-customizing-the-front-end/default-css-and-js.html">
+        
+      
+      
+      Default CSS and JS
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="6.3" data-path="../05-customizing-the-front-end/bootstrap.html">
+      
+        
+          <a href="../05-customizing-the-front-end/bootstrap.html">
+        
+      
+      
+      Bootstrap
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="6.4" data-path="../05-customizing-the-front-end/browsersync.html">
+      
+        
+          <a href="../05-customizing-the-front-end/browsersync.html">
+        
+      
+      
+      Browsersync
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="6.5" data-path="../05-customizing-the-front-end/javascript-and-dom-based-routing.html">
+      
+        
+          <a href="../05-customizing-the-front-end/javascript-and-dom-based-routing.html">
+        
+      
+      
+      JavaScript and DOM-based routing
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="6.6" data-path="../05-customizing-the-front-end/3rd-party-packages.html">
+      
+        
+          <a href="../05-customizing-the-front-end/3rd-party-packages.html">
+        
+      
+      
+      3rd party packages
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="6.7" data-path="../05-customizing-the-front-end/asset-paths-in-css-and-templates.html">
+      
+        
+          <a href="../05-customizing-the-front-end/asset-paths-in-css-and-templates.html">
+        
+      
+      
+      Asset paths in CSS and templates
+      
+        </a>
+      
+
+      
+    </li>
+  
+
+      </ol>
+      
+    </li>
+  
+    <li class="chapter " data-level="7" data-path="../06-theme-functionality/">
+      
+        
+          <a href="../06-theme-functionality/index.html">
+        
+      
+      
+      Theme functionality
+      
+        </a>
+      
+
+      
+      <ol class="articles">
+        
+  
+    <li class="chapter " data-level="7.1" data-path="../06-theme-functionality/adding-additional-files.html">
+      
+        
+          <a href="../06-theme-functionality/adding-additional-files.html">
+        
+      
+      
+      Adding additional files
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="7.2" data-path="../06-theme-functionality/namespaces.html">
+      
+        
+          <a href="../06-theme-functionality/namespaces.html">
+        
+      
+      
+      Namespaces
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="7.3" data-path="../06-theme-functionality/take-advantage-of-newer-php-features.html">
+      
+        
+          <a href="../06-theme-functionality/take-advantage-of-newer-php-features.html">
+        
+      
+      
+      Take advantage of newer PHP features
+      
+        </a>
+      
+
+      
+    </li>
+  
+
+      </ol>
+      
+    </li>
+  
+    <li class="chapter " data-level="8" data-path="../07-theme-customizations/">
+      
+        
+          <a href="../07-theme-customizations/index.html">
+        
+      
+      
+      Theme customizations
+      
+        </a>
+      
+
+      
+      <ol class="articles">
+        
+  
+    <li class="chapter " data-level="8.1" data-path="../07-theme-customizations/wordpress-customizer.html">
+      
+        
+          <a href="../07-theme-customizations/wordpress-customizer.html">
+        
+      
+      
+      WordPress Customizer
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="8.2" data-path="../07-theme-customizations/advanced-custom-fields.html">
+      
+        
+          <a href="../07-theme-customizations/advanced-custom-fields.html">
+        
+      
+      
+      Advanced Custom Fields
+      
+        </a>
+      
+
+      
+    </li>
+  
+
+      </ol>
+      
+    </li>
+  
+    <li class="chapter " data-level="9" data-path="../08-theme-deployment/">
+      
+        
+          <a href="../08-theme-deployment/index.html">
+        
+      
+      
+      Theme deployment
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="10" data-path="../09-theme-troubleshooting/">
+      
+        
+          <a href="../09-theme-troubleshooting/index.html">
+        
+      
+      
+      Theme troubleshooting
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="11" data-path="../10-theme-updates-and-maintenance/">
+      
+        
+          <a href="../10-theme-updates-and-maintenance/index.html">
+        
+      
+      
+      Theme updates and maintenance
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="12" data-path="../11-resources/">
+      
+        
+          <a href="../11-resources/index.html">
+        
+      
+      
+      Resources
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="13" data-path="../../OUTRO.html">
+      
+        
+          <a href="../.././OUTRO.html">
+        
+      
+      
+      Wrapping up
+      
+        </a>
+      
+
+      
+    </li>
+  
+    <li class="chapter " data-level="14" data-path="../../CHANGELOG.html">
+      
+        
+          <a href="../.././CHANGELOG.html">
+        
+      
+      
+      CHANGELOG
+      
+        </a>
+      
+
+      
+    </li>
+  
+
+  
+</ul>
+
+
+          </nav>
+
+          <ul class="list-inline text-xs-center mt-2">
+            <li class="list-inline-item"><a href="https://discourse.roots.io/c/sage"><i class="fa fa-2x fa-comment" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/roots/sage"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/rootswp"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a></li>
+          </ul>
+        
+      
+    </aside>
+
+    <article class="book-body">
+      
+
+        
+          <!-- 
+
+
+<div class="book-header" role="navigation">
+  
+</div>
+
+
+
+ -->
+          <!--  -->
+          
+            <h1 id="displaying-the-sidebar">Displaying the sidebar</h1>
+<p>Previous versions of Sage shipped with the primary sidebar enabled by default on all pages except for the front page and the 404<span class="widont">&#xA0;</span>page.</p>
+<p>Sage 9 does not come with the primary sidebar enabled on any<span class="widont">&#xA0;</span>pages.</p>
+<p>In <code>resources/views/layouts/app.blade.php</code> you&apos;ll find:</p>
+<pre><code class="lang-html">@if (App\display_sidebar())
+  <span class="hljs-tag">&lt;<span class="hljs-name">aside</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;sidebar&quot;</span>&gt;</span>
+    @include(&apos;partials.sidebar&apos;)
+  <span class="hljs-tag">&lt;/<span class="hljs-name">aside</span>&gt;</span>
+@endif
+</code></pre>
+<p>Sage includes a <code>sage/display_sidebar</code> filter that can be used to define which conditions to enable the sidebar<span class="widont">&#xA0;</span>on.</p>
+<p>The following snippet can be added to <code>app/filters.php</code> to enable the sidebar on single<span class="widont">&#xA0;</span>posts:</p>
+<pre><code class="lang-php">add_filter(<span class="hljs-string">&apos;sage/display_sidebar&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">if</span> (is_single()) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">true</span>;
+    }
+});
+</code></pre>
+<p>An example of using multiple conditionals to enable<span class="widont">&#xA0;</span>sidebar:</p>
+<pre><code class="lang-php">add_filter(<span class="hljs-string">&apos;sage/display_sidebar&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">($display)</span> </span>{
+    <span class="hljs-keyword">static</span> $display;
+
+    <span class="hljs-keyword">isset</span>($display) || $display = in_array(<span class="hljs-keyword">true</span>, [
+      <span class="hljs-comment">// The sidebar will be displayed if any of the following return true</span>
+      is_single(),
+      is_404(),
+      is_search()
+    ]);
+
+    <span class="hljs-keyword">return</span> $display;
+});
+</code></pre>
+<p>You can also manually include sidebars in your template files the same way the primary sidebar is included in <code>resources/views/partials/sidebar.blade.php</code>:</p>
+<pre><code class="lang-html">@php(dynamic_sidebar(&apos;sidebar-primary&apos;))
+</code></pre>
+<p>If you want to change which sidebar is used in the primary sidebar area, add conditionals to <code>resources/views/partials/sidebar.blade.php</code>:</p>
+<pre><code class="lang-html">@if (is_blog())
+  @php(dynamic_sidebar(&apos;sidebar-blog&apos;))
+@else
+  @php(dynamic_sidebar(&apos;sidebar-primary&apos;))
+@endif
+</code></pre>
+
+          
+          <!--  -->
+        
+
+        
+          
+            
+              <a href="responsive-images-and-post-thumbnails.html" class="navigation navigation-prev " aria-label="Previous page: Responsive images & post thumbnails">
+            
+            <i class="fa fa-angle-left"></i>
+          </a>
+          
+          
+            
+              <a href="../05-customizing-the-front-end/index.html" class="navigation navigation-next " aria-label="Next page: Customizing the front-end">
+            
+            <i class="fa fa-angle-right"></i>
+          </a>
+          
+        
+
+      
+    </article>
+
+    <script>
+      var gitbook = gitbook || [];
+      gitbook.push(function() {
+        gitbook.page.hasChanged({"page":{"title":"Displaying the sidebar","level":"1.5.5","depth":2,"next":{"title":"Customizing the front-end","level":"6","depth":1,"path":"chapters/05-customizing-the-front-end/README.md","ref":"chapters/05-customizing-the-front-end/README.md","articles":[{"title":"CSS setup and organization","level":"6.1","depth":2,"path":"chapters/05-customizing-the-front-end/css-setup-and-organization.md","ref":"chapters/05-customizing-the-front-end/css-setup-and-organization.md","articles":[]},{"title":"Default CSS and JS","level":"6.2","depth":2,"path":"chapters/05-customizing-the-front-end/default-css-and-js.md","ref":"chapters/05-customizing-the-front-end/default-css-and-js.md","articles":[]},{"title":"Bootstrap","level":"6.3","depth":2,"path":"chapters/05-customizing-the-front-end/bootstrap.md","ref":"chapters/05-customizing-the-front-end/bootstrap.md","articles":[]},{"title":"Browsersync","level":"6.4","depth":2,"path":"chapters/05-customizing-the-front-end/browsersync.md","ref":"chapters/05-customizing-the-front-end/browsersync.md","articles":[]},{"title":"JavaScript and DOM-based routing","level":"6.5","depth":2,"path":"chapters/05-customizing-the-front-end/javascript-and-dom-based-routing.md","ref":"chapters/05-customizing-the-front-end/javascript-and-dom-based-routing.md","articles":[]},{"title":"3rd party packages","level":"6.6","depth":2,"path":"chapters/05-customizing-the-front-end/3rd-party-packages.md","ref":"chapters/05-customizing-the-front-end/3rd-party-packages.md","articles":[]},{"title":"Asset paths in CSS and templates","level":"6.7","depth":2,"path":"chapters/05-customizing-the-front-end/asset-paths-in-css-and-templates.md","ref":"chapters/05-customizing-the-front-end/asset-paths-in-css-and-templates.md","articles":[]}]},"previous":{"title":"Responsive images & post thumbnails","level":"5.4","depth":2,"path":"chapters/04-customizing-templates/responsive-images-and-post-thumbnails.md","ref":"chapters/04-customizing-templates/responsive-images-and-post-thumbnails.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"./theme","variables":{},"plugins":["advanced-emoji","typogr","styles-sass","scripts","-fontsettings","-search","-lunr","-sharing"],"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"typogr":{},"styles-sass":{},"scripts":{},"highlight":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"website-1522296907282.css","ebook":"ebook-1522296907543.css","pdf":"pdf-1522296907546.css","epub":"assets/styles/epub.css"}},"file":{"path":"chapters/04-customizing-templates/sidebar.md","mtime":"2018-03-29T04:14:08.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-29T04:15:03.784Z"},"basePath":"../..","book":{"language":""}});
+      });
+    </script>
+  </main>
+</div>
+
+    
+  
+
+  </body>
+</html>
+
